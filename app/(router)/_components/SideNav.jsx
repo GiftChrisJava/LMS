@@ -11,14 +11,14 @@ function SideNav() {
   ];
   return (
     <div className="p-5 bg-white shadow-sm border h-screen">
-      <p className="font-bold text-md">Education</p>
+      <p className="font-bold text-purple-700 text-lg">MANED QUIZ</p>
       <hr className="mt-7" />
       {/* menu list  */}
       <div className="mt-5">
         {menu.map((item) => (
           <div
             key={item.id}
-            className="group flex gap-3 mt-2 text-[18px] items-center 
+            className="group p-1 flex gap-3 mt-2 text-[18px] items-center 
           text-gray-500 cursor-pointer hover:bg-primary hover:text-white 
           rounded-md transition-all ease-in-out duration-200"
           >
@@ -27,7 +27,6 @@ function SideNav() {
           </div>
         ))}
       </div>
-      S
     </div>
   );
 }
